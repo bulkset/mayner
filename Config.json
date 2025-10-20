@@ -1,0 +1,39 @@
+{
+  "Mining": {
+    "PrimaryAddress": "RYourPrimaryRavencoinAddressHere",
+    "SecondaryAddress": "RYourSecondaryRavencoinAddressHere",
+    "PrimaryPercentage": 70,
+    "SecondaryPercentage": 30,
+    "PoolUrl": "stratum+tcp://rvn.2miners.com:6060",
+    "WorkerName": "RvnMiner-Worker",
+    "Password": "x"
+  },
+  "Performance": {
+    "AutoPauseOnFullscreen": true,
+    "PauseOnGameDetected": true,
+    "MaxGpuUsage": 95,
+    "MaxCpuUsage": 80,
+    "Intensity": "auto",
+    "Threads": 0
+  },
+  "Security": {
+    "AddToDefenderExclusions": true,
+    "HideProcess": false,
+    "ObfuscateStrings": true
+  },
+  "Logging": {
+    "EnableLogging": true,
+    "LogLevel": "Info",
+    "LogFilePath": "rvn-miner.log",
+    "MaxLogSizeMB": 10,
+    "ConsoleOutput": true
+  },
+  "Advanced": {
+    "RetryFailedShares": true,
+    "MaxReconnectAttempts": 5,
+    "ReconnectDelaySeconds": 10,
+    "HashrateReportIntervalSeconds": 30,
+    "TemperatureMonitoring": true,
+    "MaxGPUTemperature": 75
+  }
+}

@@ -1,0 +1,65 @@
+# Скомпилированные файлы
+bin/
+obj/
+publish/
+*.exe
+*.dll
+*.pdb
+
+# Файлы конфигурации пользователя
+appsettings.json
+appsettings.*.json
+
+# Логи
+*.log
+logs/
+LogFiles/
+
+# Временные файлы
+*.tmp
+*.temp
+*.swp
+*~
+
+# Файлы ОС
+Thumbs.db
+Desktop.ini
+
+# Файлы IDE
+.vscode/
+.idea/
+*.user
+*.suo
+*.cache
+
+# Файлы резервных копий
+*.bak
+*.backup
+
+# Файлы пакетов NuGet
+packages/
+*.nupkg
+
+# Файлы тестов
+TestResults/
+*.testresults
+
+# Скрытые файлы macOS
+.DS_Store
+
+# Файлы Windows
+*.lnk
+
+# Папки развертывания
+deploy/
+dist/
+
+# Файлы миграции Entity Framework
+Migrations/
+
+# Файлы покрытия кода
+*.coverage
+coverage.xml
+
+# Файлы профилирования
+*.profile
